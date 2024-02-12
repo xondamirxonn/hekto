@@ -1,0 +1,15 @@
+.ligth-img {
+  background-image: url("../../assets/light.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 444px;
+  height: 340px;
+}
+
+.get-bg{
+  background-image: url("../../assets//get.png");
+  height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
