@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { leatestProduct } from "../../../data/leatest-product";
+import { Link } from "react-router-dom";
 
 export default function LeatestProduct() {
   const [state, setState] = useState(leatestProduct[0].new);
@@ -24,8 +25,7 @@ export default function LeatestProduct() {
       </div>
       <div className="grid grid-cols-3  gap-3 ">
         {state.map((item) => (
-          <div>
-            {" "}
+          <Link to={`/product/${item.id}`}>
             <div
               key={item.id}
               className=" flex items-center justify-center mt-2 bg-gray-100 w-[350px] h-[300px]"
@@ -41,7 +41,7 @@ export default function LeatestProduct() {
                 </div>
               </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>

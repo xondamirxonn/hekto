@@ -16,7 +16,6 @@ import Blog from "./components/Blog";
 export default function Home() {
   return (
     <div>
-      <Header />
       <Showcase />
       <Featured />
       <LeatestProduct />
@@ -28,7 +27,6 @@ export default function Home() {
       <Get />
       <Brands />
       <Blog />
-      <Footer />
     </div>
   );
 }

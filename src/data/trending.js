@@ -9,28 +9,28 @@ import chair2 from "../assets/chair2.png";
 import chair3 from "../assets/chair3.png";
 const trending = [
   {
-    id: 1,
+    id: 5,
     img: trending1,
     title: "Cantilever chair",
     price: 26,
     delPrice: 42,
   },
   {
-    id: 2,
+    id: 6,
     img: trending2,
     title: "Cantilever chair",
     price: 26,
     delPrice: 42,
   },
   {
-    id: 3,
+    id: 7,
     img: trending3,
     title: "Cantilever chair",
     price: 26,
     delPrice: 42,
   },
   {
-    id: 4,
+    id: 8,
     img: trending4,
     title: "Cantilever chair",
     price: 26,
@@ -40,13 +40,13 @@ const trending = [
 
 const products = [
   {
-    id: 1,
+    id: 9,
     title: "23% off in all products",
     text: "Shop Now",
     img: watch,
   },
   {
-    id: 2,
+    id: 10,
     title: "23% off in all products",
     text: "View Collection",
     img: desk,
@@ -55,19 +55,19 @@ const products = [
 
 const product = [
   {
-    id: 1,
+    id: 11,
     img: chair1,
     title: "Executive Seat chair",
     price: 32,
   },
   {
-    id: 2,
+    id: 12,
     img: chair2,
     title: "Executive Seat chair",
     price: 32,
   },
   {
-    id: 3,
+    id: 13,
     img: chair3,
     title: "Executive Seat chair",
     price: 32,
